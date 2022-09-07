@@ -2,3 +2,38 @@ body {
 
     font-family: 'Roboto', sans-serif;
 }
+
+/* .carousel-item {
+    height: 600px !important;
+} */
+
+/* .carousel,
+.carousel-item,
+.carousel-item.active {
+    height: 700px;
+}
+
+.carousel-inner {
+    height: 100%;
+} */
+
+.carousel-item:nth-child(1) {
+    background-image: url(/images/cover/cover-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url("/images/cover/cover-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url("/images/cover/cover-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
